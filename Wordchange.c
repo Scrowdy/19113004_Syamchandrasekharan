@@ -5,7 +5,6 @@ void main()
 {
   int n,m,i;
   char arr[100];
-  clrscr();
   printf("Enter the character:");
   scanf("%s",arr);
   n=strlen(arr);
@@ -17,13 +16,11 @@ void main()
   }
   for(i=0;i<n;i++)
   {
-    if(a[i]=='a')
-    a[i]='u';
-    if(a[i]=='i')
-    a[i]='e';
+    if(arr[i]=='a')
+    arr[i]='u';
+    if(arr[i]=='i')
+    arr[i]='e';
   }
-   printf("After changing %s",a);
+   printf("After changing %s",arr);
    getch();
 }
-   
-  
