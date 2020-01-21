@@ -7,7 +7,7 @@ void main()
   char arr[100];
   clrscr();
   printf("Enter the character:");
-  scanf("%d",arr);
+  scanf("%s",arr);
   n=strlen(a);
   if(n%2!=0)
   {
